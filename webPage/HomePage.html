@@ -10,7 +10,7 @@
 .topFooter {
   background-color: #9EBDC2;
   padding: 30px;
-  border: 3px solid #863981;
+  border: 3px solid #863981;#863981;
   text-align: center;
   color:  #A2C4C9;
   width:1266px;
@@ -19,9 +19,62 @@
 
 }
 
-  <!--Style of Website-->
+
+/*Style of Buttons*/
+
+.quizzButton{
+  background-color: #FFE599;
+  border-radius: 15px;
+  border: none;
+  box-shadow: 0 7px #45818E;
+  opacity: 67%;
+  height: 30px;
+  width: 60px;
+  top:55%;
+  left:60%;
+  position: absolute;
+
+  display: block;
+  padding: 55px 75px;
+  font-size: 24px;
+  cursor: pointer;
+
+
+  text-align: center;
+  outline: none;
+  color: #582755;}
+
+
+  .aboutMeButton{
+  background-color: #FFE599;
+  border-radius: 15px;
+  border: none;
+  box-shadow: 0 7px #45818E;
+  opacity: 67%;
+  height: 30px;
+  width: 60px;
+  top:55%;
+  left:30%;
+  position: absolute;
+
+  display: block;
+  padding: 55px 75px;
+  font-size: 24px;
+  cursor: pointer;
+
+
+  text-align: center;
+  outline: none;
+  color: #582755;}
+  
+/* Syle of the buttons when mouse hovers over */
+.quizzButton:hover {background-color: #F1C232}
+.aboutMeButton:hover {background-color: #F1C232}
+
+
 </style>
 
+  <!--Style of Website-->
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -34,12 +87,16 @@
 
 </h2>
 
+<div> <!--Quizz butoon-->
+    <a href="http://127.0.0.1:5500/webPage/QuizzPage.html"<button class="quizzButton"><b>Quizz</b></button></a>    
+</div>
 
-
+<div> <!--About Me Button-->
+    <a href="http://127.0.0.1:5500/webPage/AboutMe.html"<button class="aboutMeButton"><b>About</b></button></a>    
+</div>
 
  <!--Body of Website-->
 <body>
-<p>My first paragraph.</p>
 
 </body>
 </html>
