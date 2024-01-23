@@ -6,7 +6,7 @@ body {
     background-color: #9EBDC2;
     padding: 3vw;
     border: 3px solid #863981;
-
+    
     text-align: center;
     color: #0b4a56;
     width: 80%;
@@ -18,7 +18,6 @@ body {
 .topFoterTextTitle {
     font-size: 4vw;
     margin: 0 auto;
-    
 }
 
 .buttonContainer {
@@ -27,7 +26,7 @@ body {
     margin-top: 5vw;
 }
 
-.quizzButton, .aboutMeButton {
+.foundersCodersButton, .aboutMeButton {
     background-color: #FFE599;
     border-radius: 15px;
     border: none;
@@ -46,7 +45,7 @@ body {
   
 }
 
-.quizzButton:hover, .aboutMeButton:hover {
+.foundersCodersButton:hover, .aboutMeButton:hover {
     background-color: #F1C232;
 }
 
@@ -65,7 +64,7 @@ body {
         align-items: center;
     }
 
-    .quizzButton, .aboutMeButton {
+    .foundersCodersButton, .aboutMeButton {
         height: 15vw;
         width: 60vw;
         margin-bottom: 5vw;

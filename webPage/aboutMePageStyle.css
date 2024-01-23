@@ -25,13 +25,13 @@ body {
     padding: 1%;
 }
 
-.navbarHome, .navbarQuizz {
+.navbarHome, .navbarFoundersCoders {
     font-size: 2vw;
     text-decoration: none;
     color: black;
 }
 
-.navbarHome:hover, .navbarQuizz:hover {
+.navbarHome:hover, .navbarFoundersCoders:hover {
 
     background-color: #F1C232;
 
@@ -42,6 +42,16 @@ body {
     max-width: 100%;
     margin: 0 auto 0 20%;
     height: 20vw;
+    border-radius: 10%; 
+
+
+    
+}
+
+.aboutMeContentFC img {
+    max-width: 100%;
+    margin: 0 auto 0 60%;
+    height: 15vw;
     border-radius: 10%; 
 
 
@@ -64,7 +74,7 @@ body {
         padding: 2%;
     }
 
-    .navbarHome, .navbarQuizz {
+    .navbarHome, .navbarFoundersCoders {
         font-size: 3vw;
         margin-bottom: 2%;
     }
@@ -77,6 +87,16 @@ body {
         border-radius: 10%; 
     }
 
+
+    .aboutMeContentFC img {
+        max-width: 100%;
+        margin: 0 auto 0 1%;
+        height: 20vw;
+        border-radius: 10%; 
+    
+    
+        
+    }
 
 
 }
