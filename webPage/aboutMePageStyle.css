@@ -1,0 +1,72 @@
+body {
+    background-color: #efdff7;
+    font-family: Arial, sans-serif;
+    margin: 0;
+}
+
+.topFooter {
+    background-color: #9EBDC2;
+    padding: 2%;
+    border: 3px solid #863981;
+    text-align: center;
+    color: #A2C4C9;
+}
+
+.topFoterTextTitle {
+    font-size: 3vw;
+    color: #863981;
+}
+
+.navigationContainer {
+    background-color: #9ebdc27b;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 1%;
+}
+
+.navbarHome, .navbarQuizz {
+    font-size: 2vw;
+    text-decoration: none;
+    color: black;
+}
+
+.navbarHome:hover, .navbarQuizz:hover {
+
+    background-color: #F1C232;
+
+}
+
+
+.aboutMeContent img {
+    max-width: 100%;
+    margin: 0 auto;
+    height: 20vw;
+    border-radius: 10%; 
+    
+}
+
+/* Media query for smaller screens */
+@media only screen and (max-width: 600px) {
+    .topFooter {
+        padding: 5%;
+    }
+
+    .topFoterTextTitle {
+        font-size: 5vw;
+    }
+
+    .navigationContainer {
+        flex-direction: column;
+        align-items: stretch;
+        padding: 2%;
+    }
+
+    .navbarHome, .navbarQuizz {
+        font-size: 3vw;
+        margin-bottom: 2%;
+    }
+
+
+
+}

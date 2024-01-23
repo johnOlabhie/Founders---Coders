@@ -1,0 +1,73 @@
+body {
+    background-color: #efdff7;
+}
+
+.topFooter {
+    background-color: #9EBDC2;
+    padding: 3vw;
+    border: 3px solid #863981;
+
+    text-align: center;
+    color: #0b4a56;
+    width: 80%;
+    max-width: 1200px;
+    margin: 0 auto;
+    height: 2vw;
+}
+
+.topFoterTextTitle {
+    font-size: 4vw;
+    margin: 0 auto;
+    
+}
+
+.buttonContainer {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 5vw;
+}
+
+.quizzButton, .aboutMeButton {
+    background-color: #FFE599;
+    border-radius: 15px;
+    border: none;
+    box-shadow: 0 7px #45818E;
+    opacity: 0.67;
+    height: 10vw;
+    width: 20vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 2vw;
+    cursor: pointer;
+    text-align: center;
+    outline: none;
+    color: #582755;
+  
+}
+
+.quizzButton:hover, .aboutMeButton:hover {
+    background-color: #F1C232;
+}
+
+/* Media query for smaller screens */
+@media only screen and (max-width: 600px) {
+    .topFooter {
+        padding: 5vw;
+    }
+
+    .topFoterTextTitle {
+        font-size: 8vw;
+    }
+
+    .buttonContainer {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .quizzButton, .aboutMeButton {
+        height: 15vw;
+        width: 60vw;
+        margin-bottom: 5vw;
+    }
+}
