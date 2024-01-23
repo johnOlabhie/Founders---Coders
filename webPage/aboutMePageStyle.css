@@ -40,14 +40,16 @@ body {
 
 .aboutMeContent img {
     max-width: 100%;
-    margin: 0 auto;
+    margin: 0 auto 0 20%;
     height: 20vw;
     border-radius: 10%; 
+
+
     
 }
 
 /* Media query for smaller screens */
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 1000px) {
     .topFooter {
         padding: 5%;
     }
@@ -65,6 +67,14 @@ body {
     .navbarHome, .navbarQuizz {
         font-size: 3vw;
         margin-bottom: 2%;
+    }
+
+
+    .aboutMeContent img {
+        max-width: 100%;
+        margin: 0 auto 0 1%;
+        height: 30vw;
+        border-radius: 10%; 
     }
 
 
