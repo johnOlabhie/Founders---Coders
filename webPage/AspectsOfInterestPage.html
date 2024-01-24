@@ -10,7 +10,14 @@
 <script src="https://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script> <!-- Particle Libery -->
 <body>
     <header class="topFooter">
-        <h2 class="topFoterTextTitle"><u>Founders Coders : Aspects of Interest</u></h2>
+      
+        
+    <!--Particles-->
+    <div id="particles-containerTopFooter"></div>
+
+        
+        
+        <h2 class="topFoterTextTitle"><u>&#9829; Founders Coders : Aspects of Interest &#9829;</u></h2>
     </header>
 
     <!-- Side Navigation -->
@@ -32,15 +39,109 @@
 
     <!-- Main Content Area -->
     <div class="maincontent">
+        <!--  slideshow content goes here -->
+      <div class="mySlides">
+          <!-- Slide 1 content -->
+          <h2>At the heart of my professional interests lies Founders Coders, an organization that embodies the essence of teamwork and collaborative problem-solving. Rooted in the belief that no one should navigate challenges alone, Founders Coders provides a supportive and inclusive environment. </h2>
+        </div>
+      <div class="mySlides">
+          <!-- Slide 2 content -->
+          <h2>The emphasis on respect and kindness forms the cornerstone of its culture, creating a workplace where individuals can freely express their ideas and embrace their unique identities. </h2>
+        </div>
+     <div class="mySlides">
+            <!-- Slide 3 content -->
+            <h2>This aspect resonates deeply with me, as I value being part of a team that acts like a close-knit family, standing together through challenges and triumphs. </h2>
+        </div>
+
+          <div class="mySlides">
+            <!-- Slide 4 content -->
+            <h2>The emphasis on respect and kindness forms the cornerstone of its culture, creating a workplace where individuals can freely express their ideas and embrace their unique identities. </h2>
+       </div>
+
+          <div class="mySlides">
+            <!-- Slide 5 content -->
+            <h2>In my vision of an ideal team, mutual respect and a sense of camaraderie are crucial, especially during the intense moments when collective efforts are required to achieve goals and satisfy all stakeholders. </h2>
+               </div>
+
+          <div class="mySlides">
+            <!-- Slide 6 content -->
+            <h2>Founders Coders, as my dream team, stands out for its leaders who not only validate every team member's opinions but also foster a culture of continuous learning, encouraging us to seek inspiration from one another and extend a helping hand when needed.</h2>
+            
+           </div>
+
+           <div class="mySlides">
+            <!-- Slide 7 content -->
+            <h2>It's this dynamic and supportive atmosphere that I aspire to be a part of—a place where collaboration flourishes, ideas thrive, and every voice is not just heard but valued. &#9829;</h2>
+            
+           </div>
+    
+    
+    
+      <!-- Navigation dots -->
+     <div style="text-align:center">
+          <span class="dot" onclick="currentSlide(1)"></span>
+          <span class="dot" onclick="currentSlide(2)"></span>
+          <span class="dot" onclick="currentSlide(3)"></span>
+          <span class="dot" onclick="currentSlide(4)"></span>
+          <span class="dot" onclick="currentSlide(5)"></span>
+          <span class="dot" onclick="currentSlide(6)"></span>
+          <span class="dot" onclick="currentSlide(7)"></span>
 
 
+    </div>
+
+    
+      </div>
+
+    
+
+    
         
-
       
     </div>
 
-  
+      <!-- Scripts-->
+<script src="particlesReasonPageFooter.js"></script>
 
+
+
+<script>
+    let slideIndex = 0;
+  
+    function showSlides() {
+      let i;
+      let slides = document.getElementsByClassName("mySlides");
+      let dots = document.getElementsByClassName("dot");
+  
+      for (i = 0; i < slides.length; i++) {
+        slides[i].style.display = "none";
+      }
+  
+      slideIndex++;
+  
+      if (slideIndex > slides.length) {
+        slideIndex = 1;
+      }
+  
+      for (i = 0; i < dots.length; i++) {
+        dots[i].style.backgroundColor = "#bbb";
+      }
+  
+      slides[slideIndex - 1].style.display = "block";
+      dots[slideIndex - 1].style.backgroundColor = "#000";
+    }
+  
+    function currentSlide(n) {
+      slideIndex = n - 1;
+      showSlides();
+    }
+  
+    // Call the function to start the slideshow
+    setInterval(showSlides, 20000); // Change slide every 20 seconds
+  </script>
+  
+  
 
 </body>
 </html>
+

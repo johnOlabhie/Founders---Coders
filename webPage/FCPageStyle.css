@@ -7,7 +7,7 @@ body {
 
 
 .topFooter {
-    background-color: #9EBDC2;
+    background-color: #9ebdc2c3;
     padding: 2%;
     width: 79vw;
     margin: 1% auto 0 16%;
@@ -66,7 +66,7 @@ body {
     padding: 8px 8px 8px 32px;
     text-decoration: none;
     font-size: 16px;
-    color: #818181;
+    color: #ffffff;
     display: block;
 }
 
@@ -81,6 +81,7 @@ body {
 .maincontent {
     margin-left: 200px; /* width of the side navigation */
     padding: 20px;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
 
@@ -96,3 +97,46 @@ body {
     }
 
 }
+
+#particles-container{
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    z-index: -1; /*Places the particle container behindcontent */
+}
+
+#particles-containerTopFooter{
+    position: absolute;
+    width: 70vw;
+    height: 15vw;
+    top: -3%;
+    left: -40;
+    z-index: -1; /*Places the particle container behindcontent */
+}
+
+
+.slideshow-container {
+    max-width: 1000px;
+    position: relative;
+    margin: auto;
+  }
+  
+  .mySlides {
+    display: none;
+   
+    font-family:Georgia, 'Times New Roman', Times, serif
+
+  }
+  
+  .dot {
+    height: 20px;
+    width: 20px;
+    margin: 8vw 2px;
+    background-color: #bbb;
+    border-radius: 50%;
+    display: inline-block;
+    transition: background-color 0.6s ease;
+  }
+  
