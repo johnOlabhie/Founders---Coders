@@ -1,9 +1,11 @@
+/*Page bady color*/
 body {
     background-color: #efdff7;
     font-family: Arial, sans-serif;
     margin: 0;
 }
 
+/*top fotter/title css style */
 .topFooter {
     background-color: #9EBDC2;
     padding: 2%;
@@ -17,6 +19,8 @@ body {
     color: #863981;
 }
 
+
+/*navigation fotter css style */
 .navigationContainer {
     background-color: #9ebdc27b;
     display: flex;
@@ -37,26 +41,29 @@ body {
 
 }
 
-
+/*Hobbey image */
 .aboutMeContent img {
     max-width: 100%;
-    margin: 0 auto 0 20%;
+    margin: 10% auto 0 60%;
     height: 20vw;
     border-radius: 10%; 
-
-
-    
 }
 
+/*FC image */
 .aboutMeContentFC img {
     max-width: 100%;
-    margin: 0 auto 0 60%;
+    margin: 10% auto 0 -10%;
     height: 15vw;
     border-radius: 10%; 
 
-
-    
 }
+
+/* Container for both images */
+.aboutMeImagesContainer {
+    display: flex;
+    justify-content: space-between;
+}
+
 
 /* Media query for smaller screens */
 @media only screen and (max-width: 1000px) {
@@ -90,13 +97,28 @@ body {
 
     .aboutMeContentFC img {
         max-width: 100%;
-        margin: 0 auto 0 1%;
+        margin: 0 auto 0% 1%;
         height: 20vw;
         border-radius: 10%; 
-    
-    
+    }
+
+    .aboutMeImagesContainer { /*moves images to a colume if @meadia is activated based on windows width condotion*/
+        flex-direction: column;
+        align-items: center;
+
         
     }
 
 
 }
+
+/*particle container */
+#particles-container { /* denotes an ID= particles-container*/
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    z-index: -1; /*Places the particle container behindcontent */
+}
+
