@@ -26,7 +26,7 @@ body {
     margin-top: 5vw;
 }
 
-.foundersCodersButton, .aboutMeButton {
+.foundersCodersButton, .hobbiesButton, .aboutMeButton{
     background-color: #FFE599;
     border-radius: 15px;
     border: none;
@@ -45,7 +45,7 @@ body {
   
 }
 
-.foundersCodersButton:hover, .aboutMeButton:hover {
+.foundersCodersButton:hover, .aboutMeButton:hover, .hobbiesButton:hover {
     background-color: #F1C232;
 }
 
@@ -64,13 +64,15 @@ body {
         align-items: center;
     }
 
-    .foundersCodersButton, .aboutMeButton {
+    .foundersCodersButton, .aboutMeButton, .hobbiesButton {
         height: 15vw;
         width: 60vw;
         margin-bottom: 5vw;
     }
 }
 
+
+/*container*/
 #particles-container {
     position: fixed;
     width: 100%;

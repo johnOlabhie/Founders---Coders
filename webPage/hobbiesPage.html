@@ -3,24 +3,56 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Hobbies & Intrest</title>
-    <link rel="stylesheet" href="hobbeyPageStyle.css">
+    <title>Hobbies/Interest</title>
+    <link rel="stylesheet" href="FCPageStyle.css">
+  
 </head>
+<script src="https://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script> <!-- Particle Libery -->
 <body>
+
+     <!-- Top footer-->
     <header class="topFooter">
-        <h2 class="topFoterTextTitle"><u>Hobeies & Intreast</u></h2>
+        <h2 class="topFoterTextTitle"><u>Hobbies & Interest</u></h2>
     </header>
 
-    <nav class="navigationContainer">
-        <a href="http://127.0.0.1:5500/webPage/HomePage.html" class="navbarHome">Home</a>
-        <a href="http://127.0.0.1:5500/webPage/QuizzPage.html" class="navbarQuizz">Quizz</a>
-    </nav>
-
-
-    <!-- Hobbies me content-->
+    <!-- Side Navigation -->
+    <div class="sidenav">
+    <a href="http://127.0.0.1:5500/webPage/HomePage.html" class="navbarHome">Home</a>
+    <a href="http://127.0.0.1:5500/webPage/AboutMe.html" class="navbarAbout">About</a>
+    <a href="http://127.0.0.1:5500/webPage/foundersCodersPage.html" class="navbarAbout">Founders Coders</a>
     
 
-    <!-- Scripts-->
-    <script src="hobbiesPageScript.js"></script>
+     <!-- Dropdown container -->
+    <div class="dropdown">
+     <button class="dropbtn">Dropdown</button>
+     <!-- Dropdown content -->
+     <div class="dropdown-content dropdown-content-right">
+      <a href="http://127.0.0.1:5500/webPage/Creativity(projects)Page.html">Creativity(projects):</a>
+
+     <a href="http://127.0.0.1:5500/webPage/InterestsOutsideoFTechPage.html">Interests Outside of Tech:</a>
+            </div>
+        </div>
+    </div>
+
+    <!-- Main Content Area -->
+    <div class="maincontent">
+
+        <!--Particles-->
+<div id="particles-container"></div>
+
+
+<img src="images/fortite.jpg" alt="fortite" >
+<img src="images/androidStudio.png" alt="HAndriod studio" >
+<img src="images/unity.png" alt="Unity" >
+<img src="images/blender-logo.png" alt="Blender 3d >
+
+
+        
+      
+    </div>
+
+      <!-- Scripts-->
+<script src="particlesPage.js"></script>
+
 </body>
 </html>
