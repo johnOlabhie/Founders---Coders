@@ -13,7 +13,7 @@ body {
 /*game content container*/
 .container {
     text-align: center;
-    background-color: #e3dcb1;
+    background-color: #e3dab1;
     font-family:fantasy;
     font-size: large;
     color: #50024c;
@@ -34,4 +34,13 @@ button {
     margin-bottom: 30px;
     font-size: 24px;
    
+}
+
+#particles-container{
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    z-index: -1; /*Places the particle container behindcontent */
 }
